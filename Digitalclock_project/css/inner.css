@@ -1,0 +1,96 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+#container{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(239, 154, 121, 0.746);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    backdrop-filter: blur(10px);
+
+}
+#time{
+    font-size: 8vw;
+    text-align: center;
+    color: rgb(245, 202, 187);
+    text-shadow: 5px 5px 5px rgb(239, 122, 122);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1vw;
+    word-spacing: 1vw;
+    user-select: none;
+}
+#dd,#day{
+    font-size: 5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    letter-spacing: 1vw;
+    color: white;
+    text-shadow: 4px 4px 4px rgb(10, 182, 255);
+    user-select: none;
+}
+#day{
+    letter-spacing: 2vw;
+    user-select: none;
+}
+#sec{
+    font-size: 35vw;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 10%;
+    color: rgba(31, 20, 232, 0.941);
+    letter-spacing: 10vw;
+    text-shadow: 5px 5px 5px rgb(36, 7, 255);
+    user-select: none;
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+#toggle{
+  width: 100px;
+  height: 40px;
+  background-color: rgba(255, 166, 0, 0.595);
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px gray,inset -5px -5px 5px orange,inset 5px 5px 5px rgb(255, 166, 0);
+  transition: all 0.2s;
+  position:absolute;
+  top: 64%;
+  left: 46%;
+  
+
+}
+#circle{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+  top: 2.5px;
+  left: 2px;
+  transition: all 0.5s;
+  user-select: none;
+}
+#format{
+  color: white;
+  display: inline-block;
+  margin-left: 2.5px;
+  margin-top: 2px;
+  font-size: 1.2vw;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  letter-spacing: 0.1vw;
+}
